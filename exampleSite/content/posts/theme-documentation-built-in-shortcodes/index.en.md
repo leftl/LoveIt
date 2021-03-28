@@ -119,7 +119,11 @@ Example `instagram` input:
 
 The rendered output looks like this:
 
-{{< instagram BWNjjyYFxVx hidecaption >}}
+<!-- {!{< instagram BWNjjyYFxVx hidecaption >}}  -->
+
+NOTE: due to changes in the instagram API (via facebook), this is no longer compatible OOTB. With an access token and some more configuration this may be re-enabled. May be re-implemented in the future.
+
+Fore more info, see this [github issue](https://github.com/gohugoio/hugo/issues/7879).
 
 ## 5 param
 

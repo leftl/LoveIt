@@ -110,17 +110,21 @@ Hugo 附带了一组预定义的 shortcodes, 它们实现了一些非常常见�
 
 ## 4 instagram
 
-[`instagram` 的文档](https://gohugo.io/content-management/shortcodes#instagram)
+[Documentation of `instagram`](https://gohugo.io/content-management/shortcodes#instagram)
 
-一个 `instagram` 示例:
+Example `instagram` input:
 
 ```markdown
 {{</* instagram BWNjjyYFxVx hidecaption */>}}
 ```
 
-呈现的输出效果如下:
+The rendered output looks like this:
 
-{{< instagram BWNjjyYFxVx hidecaption >}}
+<!-- {!{< instagram BWNjjyYFxVx hidecaption >}}  -->
+
+NOTE: due to changes in the instagram API (via facebook), this is no longer compatible OOTB. With an access token and some more configuration this may be re-enabled. May be re-implemented in the future.
+
+Fore more info, see this [github issue](https://github.com/gohugoio/hugo/issues/7879).
 
 ## 5 param
 
